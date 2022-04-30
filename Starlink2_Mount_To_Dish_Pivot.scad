@@ -10,13 +10,13 @@ union() {
                 cylinder(r=17.5,h=55.1,center=true,$fa=1,$fs=0.5);
             }
         //notch for pole securing button
-        translate([-6,20.7,38.2])
+        translate([-6,20.7,37])
             rotate([90,0,0])
-                cube([12,12,5]);
+                cube([12,15,5]);
     }
         //slot to all cable to be passed through while protected
-        translate([-3.5,15,-0.05])
-            cube([7,15,8.1]);
+        translate([-5,15,-0.05])
+            cube([10,15,10.1]);
     }
     //tv sattilite pivot pipe mount
     difference() {
@@ -29,8 +29,8 @@ union() {
                     cylinder(r=22,h=100.1,center=true,$fa=1,$fs=0.5);
                 }
         //notch cut out for tightening/loosening of sleeve
-        translate([-3.5,15,-100.05])
-            cube([7,15,100.1]);
+        translate([-5,15,-100.05])
+            cube([10,15,100.1]);
         }
         //recess for hose clamp
         translate([0,0,-20])
