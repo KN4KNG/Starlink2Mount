@@ -10,7 +10,7 @@ union() {
                 cylinder(r=17.5,h=55.1,center=true,$fa=1,$fs=0.5);
             }
         //notch for pole securing button
-        translate([-6,20.7,23.7])
+        translate([-6,20.7,38.2])
             rotate([90,0,0])
                 cube([12,12,5]);
     }
